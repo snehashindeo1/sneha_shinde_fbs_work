@@ -1,0 +1,45 @@
+Name :Sneha Namdev Shinde
+Test :set-A
+
+
+
+Q1 Ans: select name salary
+        from employee
+        order by salary desc;
+        
+     
+Q2.Ans: select 	name salary
+        from employee
+        order by salary desc
+        limit 5;
+
+Q3 Ans: select * from employee
+        limit 5 ,offset 3;
+
+Q4 Ans: select count (*) from employees;
+
+Q5 Ans:  select department, avg(salary) as avg_salary ,from employees group by deparment_id       having avg(salary) > 50000;
+     	
+Q6 Ans: select * from products where products_name like %Laptop%;
+
+Q7 Ans: select substring(student_name, 1, 3) as first_three_chars from students;
+
+
+Q8 Ans: select * from students_name like 'A%';
+
+Q9 Ans: select month(order_date) as month, count(*) as total orders
+        from orders group by month (order_date) having count(*) > 100;
+
+Q10 Ans: select category, sum (sales_amount) as total_sales, avg(sales_amount) as avg_sales
+         from sales group by category  having sum(sales_amount) > 100000;
+
+
+Q11 Ans: a)The total number of employees
+
+Q12 Ans: b)8
+
+Q13 Ans: c)HAVING
+
+Q14 Ans: b)return all rows from the table and matching rows from the right table
+
+Q15 Ans: b)HELLO WORLD
